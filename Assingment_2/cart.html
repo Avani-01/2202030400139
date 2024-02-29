@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <style>
+         @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Lato:wght@700&display=swap");
+      /* font-family: 'Inter', sans-serif;
+      font-family: 'Lato', sans-serif; */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(245, 192, 233, 0.509);
+        }
+        .nav{
+            width: 90%;
+            height: 10%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1{
+            font-size: 3rem;
+            font-weight: 900;
+            font-family: 'Lato', sans-serif;
+        }
+        a{
+            list-style: none;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: rgb(8, 8, 8);
+            padding: 8px 10px;
+            background-color: #de71f6e9;
+            opacity: 0.8;
+            border-radius: 3px;
+        }
+        .text{
+            width: 90%;
+            height: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;   
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            opacity: 0.86;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+        <h1>Foody Heaven</h1>
+        <a href="home.html">Home</a>
+    </div>
+    <div class="text">
+        <img src="cart.jpg" alt="cart">
+        <h2>Your cart is Empty</h2>
+        <p>You can go to home page to view more choice</p>
+    </div>
+  </div>
+</body>
+</html>
